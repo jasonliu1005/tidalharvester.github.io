@@ -19,13 +19,13 @@ export default function LowKeyAI() {
       id: "ai",
       title: "only ai can harvest them",
       keywords: ["ai"],
-      img: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1600&auto=format&fit=crop",
+      img: "/images/model.webp",
     },
     {
       id: "tidal-harvester", // no spaces in id
       title: "tidal harvester",
       keywords: ["power investment"],
-      img: "https://images.unsplash.com/photo-1518779578993-ec3579fee39f?q=80&w=1600&auto=format&fit=crop",
+      img: "/images/tidalharvester.webp",
     },
   ];
 
