@@ -5,19 +5,19 @@ export default function LowKeyAI() {
   const sections = [
     {
       id: "tidals",
-      title: "there is energy hide between tidals",
-      keywords: ["vaccumn", "energy"],
-      img: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=1600&auto=format&fit=crop"
+      title: "energy hide between tidals",
+      keywords: ["vacuum", "energy"],
+      img: "./images/vacuum.png"
     },
     {
       id: "investment",
-      title: "just like the oppotunities between fluxtuations",
-      keywords: ["opportunity", "existed"],
+      title: "opportunities conceal among waves",
+      keywords: ["opportunity", "exists"],
       img: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1600&auto=format&fit=crop"
     },
     {
       id: "ai",
-      title: "you need ai to harvest them",
+      title: "only ai can harvest them",
       keywords: ["ai"],
       img: "https://images.unsplash.com/photo-1518779578993-ec3579fee39f?q=80&w=1600&auto=format&fit=crop"
     },
@@ -94,6 +94,12 @@ export default function LowKeyAI() {
                 filter: "grayscale(100%) brightness(0.5)",
               }}
             />
+            {/* <img
+                src={s.img}
+                alt=""
+                className="absolute inset-0 -z-10 h-full w-full object-cover [filter:grayscale(100%)_brightness(0.5)]"
+                loading="lazy"
+                /> */}
 
             {/* Subtle grid / tech vibe */}
             <div className="absolute inset-0 -z-10 opacity-20 [background-image:linear-gradient(transparent_95%,rgba(255,255,255,.08)_95%),linear-gradient(90deg,transparent_95%,rgba(255,255,255,.08)_95%)] [background-size:24px_24px]" />
@@ -134,7 +140,7 @@ export default function LowKeyAI() {
                 transition={{ delay: 0.25, duration: 0.6 }}
                 className="mt-8 text-sm text-zinc-300/80 max-w-xl"
               >
-                <span className="text-zinc-400">∎</span> $>
+                <span className="text-zinc-400">∎</span> $> info@tidalharvester.ai
               </motion.p>
 
               {idx === sections.length - 1 && (
@@ -145,7 +151,7 @@ export default function LowKeyAI() {
                   transition={{ delay: 0.35, duration: 0.6 }}
                   className="mt-12 text-xs text-zinc-500"
                 >
-                  © {new Date().getFullYear()} low-profile ai
+                  © {new Date().getFullYear()} TidalHarvester.ai
                 </motion.div>
               )}
             </div>
