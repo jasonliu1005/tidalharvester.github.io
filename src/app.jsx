@@ -153,10 +153,6 @@ export default function LowKeyAI() {
         ))}
       </main>
 
-      {/* Floating helper */}
-      <div className="fixed bottom-4 left-1/2 -translate-x-1/2 z-50">
-        <div className="rounded-full border border-white/10 bg-white/5 backdrop-blur px-4 py-2 text-[11px] text-zinc-300"></div>
-      </div>
     </div>
   );
 }
